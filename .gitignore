@@ -162,3 +162,6 @@ cython_debug/
 # Ignore config files and directories
 *.conf 
 /conf
+
+# Ignore csvs (for now)
+*.csv
