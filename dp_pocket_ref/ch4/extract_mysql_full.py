@@ -4,7 +4,7 @@ import configparser
 import boto3
 
 parser = configparser.ConfigParser()
-parser.read("../../pipeline.conf") ###does it matter where the conf file is located on your machine??
+parser.read("../../pipeline.conf")
 
 # load mysql connection values
 hostname = parser.get("mysql_config", "hostname")
